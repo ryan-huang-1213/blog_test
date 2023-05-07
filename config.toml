@@ -1,0 +1,63 @@
+#basic info set 
+baseURL = 'https://ryan-huang-1213.github.io/blog_test'
+languageCode = 'zh-tw'
+title = 'My New Hugo Site'
+BuildDrafts = false
+theme = "PaperMod"
+
+#tags
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 10
+
+#category
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 20
+
+#posts
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 30
+
+#archieve
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 40
+
+#profile page 
+[parama.profileMode]
+enabled = true
+title = "enter the content"
+subtitle = "enter the content"
+image.url = "image/wait to add.img"
+imageWidth = 120
+imageheight = 120
+imagetitle = "title"
+
+[[params.profileMode.buttons]]
+name = "blog"
+url = "/posts/"
+
+[[params.profileMode.buttona]]
+name = "categories"
+url = "/categories/"
+
+[[params.socialicons]]
+name = "github"
+url = "https://github.com/"
+
+#article set
+[params]
+ShowBreadCrumbs = true
+ShowReadingTime = true 
+ShowShareButtons = true 
+ShowPostNavLinks = true 
