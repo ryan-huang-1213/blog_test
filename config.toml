@@ -1,53 +1,52 @@
 #basic info set 
-baseURL = 'https://ryan-huang-1213.github.io/blog_test'
-languageCode = 'zh-tw'
-title = 'My New Hugo Site'
-BuildDrafts = false
-theme = "PaperMod"
+baseURL = 'https://ryan-huang-1213.github.io/blog_test' #the home for the blog 
+languageCode = 'zh-tw' #the language (?)
+title = 'My New Hugo Site' #the title of the blog 
+BuildDrafts = false #can read the stuff directly  
+theme = "PaperMod" #initial style 
 
-#tags
+
+#buttons on the top :)
+###tags      #標籤(hashtag)
 [[menu.main]]
 identifier = "tags"
 name = "tags"
 url = "/tags/"
 weight = 10
-
-#category
+###category        #分類們 
 [[menu.main]]
 identifier = "categories"
 name = "categories"
 url = "/categories/"
 weight = 20
-
-#posts
+###posts        #文章們
 [[menu.main]]
 identifier = "posts"
 name = "posts"
 url = "/posts/"
 weight = 30
-
-#archieve
+###archieve        #檔案們
 [[menu.main]]
 identifier = "archives"
 name = "archives"
 url = "/archives/"
 weight = 40
 
-#profile page 
+#profile page         #首頁
 [parama.profileMode]
 enabled = true
 title = "enter the content"
 subtitle = "enter the content"
-image.url = "image/wait to add.img"
+imageurl = "image/wait to add.img"
 imageWidth = 120
 imageheight = 120
 imagetitle = "title"
 
-[[params.profileMode.buttons]]
-name = "blog"
+[[params.profileMode.buttons]] #利用profileMode是已經寫好的東東
+name = "posts"                 #修改裡面的部分東西
 url = "/posts/"
 
-[[params.profileMode.buttona]]
+[[params.profileMode.buttons]]
 name = "categories"
 url = "/categories/"
 

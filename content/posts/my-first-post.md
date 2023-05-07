@@ -6,16 +6,15 @@ draft: false
 
 # Hello World!
 
-[//]: <heading>
+[//]: <heading> 
 
 # heading 1
 ## heading 2
 ### heading 3
-j
 
 [//]: <font type>
 
-_ word _
+_word_
 
 **word**
 
@@ -23,20 +22,39 @@ _**word**_
 
 ~~word~~
 
+>個人經歷
+>>兩個可以用嗎
+>>>我是菜雞
+>>>>>我想要一次跳多一些
+>>>>>>>孔乙己:讀書人的事能叫偷嗎?(~~話說這文章在大陸會不會要被封了~~)
 
 [//]: <list>
 
-+ hi
-+ hello
+需要買的蔬菜
++ **竹筍**
++ **雞蛋**
++ **海帶芽**
++ **牛奶**
 
-1. male
-2. female
+推選會代時程(時間未定)
+1. 參選人登記
+2. 公告
+3. 投票 (還不確定需不需要要記名或是要不要實體投票)
+4. 公布選舉結過並提交
 
-- [ ] yes
-- [ ] no
+待辦事項
+- [X] 打完原神主線
+1. [X] 寫出dsahw3證明題
+2. [ ] 把第二副卡坦島整理好 
+    >(缺件補齊 將擴充嘗試裝入原包裝中)
 
+[//]: <latte test>
+
+formula: (^n_k) 哭哭我不會用
 
 [//]: <code>
+
+`printf(a,n)//絕對是印出陣列的意思(X)`
 
 ```C
 #include <stdio.h>
@@ -46,7 +64,7 @@ int main (){
 }
 ```
 
-[link]: <picture>
+[//]: <link picture>
 
 [google] (https://www.google.com/)
 
